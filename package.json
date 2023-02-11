@@ -1,0 +1,25 @@
+{
+  "name": "nbvk-quotes-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nubovik01/nbvk-quotes-api.git"
+  },
+  "keywords": [
+    "quotes",
+    "api",
+    "node",
+    "javascript"
+  ],
+  "author": "Nubovik <nubovik01@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nubovik01/nbvk-quotes-api/issues"
+  },
+  "homepage": "https://github.com/Nubovik01/nbvk-quotes-api#readme"
+}
