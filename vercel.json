@@ -3,6 +3,13 @@
     {
       "src": "/",
       "dest": "/api/index.js"
+    },
+    {
+      "src": "/get",
+      "methods": [
+        "POST", "GET"
+      ],
+      "dest": "/api/index.js"
     }
   ]
 }
