@@ -16,5 +16,11 @@
     "first_name": "Илья",
     "last_name": "Петров",
     "nickname": "RedGuys"
+  },
+  {
+    "id": 4,
+    "first_name": "Yaromir",
+    "last_name": "Chestor",
+    "nickname": null
   }
 ]
