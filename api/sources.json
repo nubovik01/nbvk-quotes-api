@@ -1,20 +1,44 @@
 [
   {
     "id": 1,
+    "age_restriction": "0+",
+    "name": null,
+    "link": null
+  },
+  {
+    "id": 2,
+    "age_restriction": "6+",
+    "name": null,
+    "link": null
+  },
+  {
+    "id": 3,
+    "age_restriction": "12+",
+    "name": null,
+    "link": null
+  },
+  {
+    "id": 4,
+    "age_restriction": "16+",
+    "name": null,
+    "link": null
+  },
+  {
+    "id": 5,
+    "age_restriction": "18+",
+    "name": null,
+    "link": null
+  },
+  {
+    "id": 6,
     "age_restriction": "18+",
     "name": "Цитатки Hil.su (18+)",
     "link": "https://t.me/hilsuquotes"
   },
   {
-    "id": 2,
+    "id": 7,
     "age_restriction":"0+",
     "name": "FlameOut Community :: Server of Nubovik",
     "link": "https://discord.gg/EJc8UC7yhZ"
-  },
-  {
-    "id": 3,
-    "age_restriction": "0+",
-    "name": null,
-    "link": null
   }
 ]

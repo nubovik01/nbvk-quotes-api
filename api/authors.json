@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
+    "first_name": "Неизвестный",
+    "last_name": "автор",
+    "nickname": null
+  },
+  {
+    "id": 2,
     "first_name": null,
     "last_name": null,
     "nickname": "dieKartoffel"
   },
   {
-    "id": 2,
+    "id": 3,
     "first_name": "Стив",
     "last_name": "Джобс",
     "nickname": null
   },
   {
-    "id": 3,
+    "id": 4,
     "first_name": "Илья",
     "last_name": "Петров",
     "nickname": "RedGuys"
   },
   {
-    "id": 4,
+    "id": 5,
     "first_name": "Yaromir",
     "last_name": "Chestor",
-    "nickname": null
-  },
-  {
-    "id": 5,
-    "first_name": "Неизвестный",
-    "last_name": "автор",
     "nickname": null
   }
 ]
