@@ -15,7 +15,7 @@ app.get("/v2", async function (req, res) {
   let data = {
     id: quote.id,
     quote_text: quote.quote_text,
-    age_restriction: "0+",
+    age_restriction: quote.age_restriction,
     source: {
       id: SourceObj.id,
       age_restriction: SourceObj.age_restriction,
