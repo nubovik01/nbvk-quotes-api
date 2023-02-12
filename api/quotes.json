@@ -10,8 +10,9 @@
       "link": "https://t.me/hilsuquotes",
       "author": {
         "id": 1,
-        "first_name": "dieKartoffel",
-        "last_name": null
+        "first_name": null,
+        "last_name": null,
+        "nickname": "dieKartoffel"
       }
     }
   },
@@ -27,7 +28,8 @@
       "author": {
         "id": 2,
         "first_name": "Steve",
-        "last_name": "Jobs"
+        "last_name": "Jobs",
+        "nickname": null
       }
     }
   },
@@ -43,7 +45,8 @@
       "author": {
         "id": 3,
         "first_name": "Илья",
-        "last_name": "Петров"
+        "last_name": "Петров",
+        "nickname": "dieKartoffel"
       }
     }
   }
