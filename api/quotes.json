@@ -1,5 +1,16 @@
 [
   {
-    "id": 1
+    "id": 1,
+    "quote_text": "Блин встретил новый год в нижнем белье",
+    "source": {
+      "id": 1,
+      "name": "Hilarious's Quotation Book",
+      "link": "https://t.me/hilsuquotes",
+      "author": {
+        "id": 1,
+        "first_name": "dieKartoffel",
+        "last_name": null
+      }
+    }
   }
 ]
