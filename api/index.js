@@ -1,6 +1,5 @@
 const express = require("express");
 const bodyParser = require('body-parser');
-let quotes = require('../quotes.json');
 
 const app = express();
 app.use(bodyParser.json());
