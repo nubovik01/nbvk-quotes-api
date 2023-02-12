@@ -30,5 +30,21 @@
         "last_name": "Jobs"
       }
     }
+  },
+  {
+    "id": 3,
+    "quote_text": "Есть же проще, у нас же нода >16.0.0",
+    "age_restriction": "0+",
+    "source": {
+      "id": 3,
+      "age_restriction": "0+",
+      "name": "Discord-сервер \"FlameOut Community :: Server of Nubovik\"",
+      "link": "https://discord.gg/EJc8UC7yhZ",
+      "author": {
+        "id": 3,
+        "first_name": "Илья",
+        "last_name": "Петров"
+      }
+    }
   }
 ]
