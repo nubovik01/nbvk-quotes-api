@@ -17,6 +17,13 @@
         "POST", "GET"
       ],
       "dest": "/api/v1/index.js"
+    },
+    {
+      "src": "/v2",
+      "methods": [
+        "POST", "GET"
+      ],
+      "dest": "/api/v2/index.js"
     }
   ]
 }

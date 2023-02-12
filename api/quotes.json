@@ -3,51 +3,21 @@
     "id": 1,
     "quote_text": "Блин встретил новый год в нижнем белье",
     "age_restriction": "0+",
-    "source": {
-      "id": 1,
-      "age_restriction": "18+",
-      "name": "Цитатки Hil.su (18+)",
-      "link": "https://t.me/hilsuquotes",
-      "author": {
-        "id": 1,
-        "first_name": null,
-        "last_name": null,
-        "nickname": "dieKartoffel"
-      }
-    }
+    "source": 1,
+    "author": 1
   },
   {
     "id": 2,
     "quote_text": "Интуиция — очень мощная штука, более мощная, чем интеллект.",
     "age_restriction": "0+",
-    "source": {
-      "id": 2,
-      "age_restriction": "0+",
-      "name": null,
-      "link": null,
-      "author": {
-        "id": 2,
-        "first_name": "Steve",
-        "last_name": "Jobs",
-        "nickname": null
-      }
-    }
+    "source": 2,
+    "author": 2
   },
   {
     "id": 3,
     "quote_text": "Есть же проще, у нас же нода >16.0.0",
     "age_restriction": "0+",
-    "source": {
-      "id": 3,
-      "age_restriction": "0+",
-      "name": "Discord-сервер \"FlameOut Community :: Server of Nubovik\"",
-      "link": "https://discord.gg/EJc8UC7yhZ",
-      "author": {
-        "id": 3,
-        "first_name": "Илья",
-        "last_name": "Петров",
-        "nickname": "dieKartoffel"
-      }
-    }
+    "source": 3,
+    "author": 3
   }
 ]

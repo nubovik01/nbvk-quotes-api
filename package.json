@@ -1,8 +1,8 @@
 {
   "name": "nbvk-quotes-api",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "api/index.js",
+  "main": "api/v2/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
