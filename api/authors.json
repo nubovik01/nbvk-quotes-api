@@ -22,5 +22,11 @@
     "first_name": "Yaromir",
     "last_name": "Chestor",
     "nickname": null
+  },
+  {
+    "id": 5,
+    "first_name": "Неизвестный",
+    "last_name": "автор",
+    "nickname": null
   }
 ]
