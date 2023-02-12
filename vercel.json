@@ -5,11 +5,11 @@
       "dest": "/api/index.js"
     },
     {
-      "src": "/get",
+      "src": "/v1",
       "methods": [
         "POST", "GET"
       ],
-      "dest": "/api/index.js"
+      "dest": "/api/v1/index.js"
     }
   ]
 }
