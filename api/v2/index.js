@@ -16,18 +16,20 @@ app.get("/v2", async function (req, res) {
     id: quote.id,
     quote_text: quote.quote_text,
     age_restriction: quote.age_restriction,
-    source: {
-      id: SourceObj.id,
-      age_restriction: SourceObj.age_restriction,
-      name: SourceObj.name,
-      link: SourceObj.link,
-      author: {
-        id: AuthorObj.id,
-        first_name: AuthorObj.first_name,
-        last_name: AuthorObj.last_name,
-        nickname: AuthorObj.nickname
+    source: [
+      {
+        id: SourceObj.id,
+        age_restriction: SourceObj.age_restriction,
+        name: SourceObj.name,
+        link: SourceObj.link,
+        author: {
+          id: AuthorObj.id,
+          first_name: AuthorObj.first_name,
+          last_name: AuthorObj.last_name,
+          nickname: AuthorObj.nickname
+        }
       }
-    }
+    ]
   }
   return res.send(data);
 });
