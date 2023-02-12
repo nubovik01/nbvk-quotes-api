@@ -3,36 +3,42 @@
     "id": 1,
     "first_name": "Неизвестный",
     "last_name": "автор",
-    "nickname": null
+    "nickname": null,
+    "image": null
   },
   {
     "id": 2,
     "first_name": null,
     "last_name": null,
-    "nickname": "dieKartoffel"
+    "nickname": "dieKartoffel",
+    "image": null
   },
   {
     "id": 3,
     "first_name": "Стив",
     "last_name": "Джобс",
-    "nickname": null
+    "nickname": null,
+    "image": null
   },
   {
     "id": 4,
     "first_name": "Илья",
     "last_name": "Петров",
-    "nickname": "RedGuys"
+    "nickname": "RedGuys",
+    "image": null
   },
   {
     "id": 5,
     "first_name": "Яромир",
     "last_name": "Честор",
-    "nickname": null
+    "nickname": null,
+    "image": null
   },
   {
     "id": 6,
     "first_name": "Роберт",
     "last_name": "Де Ниро",
-    "nickname": null
+    "nickname": null,
+    "image": null
   }
 ]

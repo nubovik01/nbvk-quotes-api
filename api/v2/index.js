@@ -26,7 +26,8 @@ app.get("/v2", async function (req, res) {
           id: AuthorObj.id,
           first_name: AuthorObj.first_name,
           last_name: AuthorObj.last_name,
-          nickname: AuthorObj.nickname
+          nickname: AuthorObj.nickname,
+          image: AuthorObj.image
         }
       }
     ]
