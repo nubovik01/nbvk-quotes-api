@@ -10,8 +10,8 @@ app.get("/", async function (req, res) {
 });
 
 app.get("/v1", async function (req, res) {
-    return res.send(quotes[Math.floor(Math.random() * quotes.length)]);
-  });
+  return res.send(quotes[Math.floor(Math.random() * quotes.length)]);
+});
 
 app.listen(process.env.PORT || 21790, function () {
   console.log('Express listening on %s:%s', this.address().address, this.address().port);
