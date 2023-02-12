@@ -12,5 +12,19 @@
         "last_name": null
       }
     }
+  },
+  {
+    "id": 2,
+    "quote_text": "Интуиция — очень мощная штука, более мощная, чем интеллект.",
+    "source": {
+      "id": 2,
+      "name": null,
+      "link": null,
+      "author": {
+        "id": 2,
+        "first_name": "Steve",
+        "last_name": "Jobs"
+      }
+    }
   }
 ]
