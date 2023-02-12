@@ -28,5 +28,11 @@
     "first_name": "Яромир",
     "last_name": "Честор",
     "nickname": null
+  },
+  {
+    "id": 6,
+    "first_name": "Роберт",
+    "last_name": "Де Ниро",
+    "nickname": null
   }
 ]
