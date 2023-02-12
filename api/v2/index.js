@@ -2,17 +2,17 @@ const express = require("express");
 const bodyParser = require('body-parser');
 let quotes = require('../quotes.json');
 let authors = require('../authors.json');
-let sources=require('../sources.json');
+let sources = require('../sources.json');
 
 const app = express();
 app.use(bodyParser.json());
 
 app.get("/v2", async function (req, res) {
-  let quote=quotes[Math.floor(Math.random() * quotes.length)];
-  let SourceObj=sources[quote.source-1];
-  let AuthorObj=authors[quote.author-1];
+  let quote = quotes[Math.floor(Math.random() * quotes.length)];
+  let SourceObj = sources[quote.source - 1];
+  let AuthorObj = authors[quote.author - 1];
 
-  let data={
+  let data = {
     id: quote.id,
     quote_text: quote.quote_text,
     age_restriction: "0+",
@@ -28,7 +28,6 @@ app.get("/v2", async function (req, res) {
         nickname: AuthorObj.nickname
       }
     }
-    //добавить AuthorObj в source
   }
   return res.send(data);
 });
