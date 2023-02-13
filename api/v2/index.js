@@ -10,7 +10,6 @@ app.use(bodyParser.json());
 app.get("/v2", async function (req, res) {
   let quote = quotes[Math.floor(Math.random() * quotes.length)];
   let SourceObj = sources[quote.source - 1];
-  let AuthorObj = authors[quote.author - 1];
 
   let data = {
     id: quote.id,
@@ -22,16 +21,22 @@ app.get("/v2", async function (req, res) {
         age_restriction: SourceObj.age_restriction,
         name: SourceObj.name,
         link: SourceObj.link,
-        author: {
-          id: AuthorObj.id,
-          first_name: AuthorObj.first_name,
-          last_name: AuthorObj.last_name,
-          nickname: AuthorObj.nickname,
-          image: AuthorObj.image
-        }
+        authors: []
       }
     ]
-  }
+  };
+
+  for (let AuthorId of quote.authors) {
+    let author=authors[AuthorId-1];
+    data.source[0].authors.push({
+      id: author.id,
+      first_name: author.first_name,
+      last_name: author.last_name,
+      nickname: author.nickname,
+      image: author.image
+    });
+  };
+
   return res.send(data);
 });
 
