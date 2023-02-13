@@ -1,6 +1,6 @@
 {
   "name": "nbvk-quotes-api",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "",
   "main": "api/v2/index.js",
   "scripts": {
