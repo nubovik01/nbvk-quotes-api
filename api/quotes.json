@@ -54,5 +54,12 @@
     "age_restriction": "0+",
     "source": 1,
     "authors": [6]
+  },
+  {
+    "id": 9,
+    "quote_text": "— [Фотография]\n— Что это?\n— localhost:8000\n— А зачем мне API FlameOut?\n— ??\n— [Фотография], у меня сейчас на этом порте флейм запущен",
+    "age_restriction": "0+",
+    "source": 8,
+    "authors": [7,8]
   }
 ]

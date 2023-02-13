@@ -40,5 +40,11 @@
     "age_restriction": "0+",
     "name": "FlameOut Community :: Server of Nubovik",
     "link": "https://discord.gg/EJc8UC7yhZ"
+  },
+  {
+    "id": 8,
+    "age_restriction": "6+",
+    "name": "Чат Telegram-канала \"nubovikxd\"",
+    "link": "https://t.me/nubovikxd"
   }
 ]
