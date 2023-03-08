@@ -15,6 +15,7 @@ app.get("/v2", async function (req, res) {
     id: quote.id,
     quote_text: quote.quote_text,
     age_restriction: quote.age_restriction,
+    archived: quote.archived,
     source: [
       {
         id: SourceObj.id,
