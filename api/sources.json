@@ -43,7 +43,31 @@
   },
   {
     "id": 8,
+    "age_restriction": "0+",
+    "name": "Чат Telegram-канала \"nubovikxd\"",
+    "link": "https://t.me/nubovikxd"
+  },
+  {
+    "id": 9,
     "age_restriction": "6+",
+    "name": "Чат Telegram-канала \"nubovikxd\"",
+    "link": "https://t.me/nubovikxd"
+  },
+  {
+    "id": 11,
+    "age_restriction": "12+",
+    "name": "Чат Telegram-канала \"nubovikxd\"",
+    "link": "https://t.me/nubovikxd"
+  },
+  {
+    "id": 12,
+    "age_restriction": "16+",
+    "name": "Чат Telegram-канала \"nubovikxd\"",
+    "link": "https://t.me/nubovikxd"
+  },
+  {
+    "id": 13,
+    "age_restriction": "18+",
     "name": "Чат Telegram-канала \"nubovikxd\"",
     "link": "https://t.me/nubovikxd"
   }
