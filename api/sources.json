@@ -70,5 +70,11 @@
     "age_restriction": "18+",
     "name": "Чат Telegram-канала \"nubovikxd\"",
     "link": "https://t.me/nubovikxd"
+  },
+  {
+    "id": 14,
+    "age_restriction": "0+",
+    "name": "Молоко и мёд",
+    "link": null
   }
 ]
