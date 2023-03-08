@@ -54,5 +54,12 @@
     "last_name": "Петров",
     "nickname": "Bronnayina",
     "image": null
+  },
+  {
+    "id": 9,
+    "first_name": "Рупи",
+    "last_name": "Каур",
+    "nickname": null,
+    "image": null
   }
 ]
