@@ -33,7 +33,6 @@ app.get("/v2", async (req, res) => {
   return res.send(data);
 });
 
-const port = process.env.PORT || 21792;
-app.listen(port, () => {
-  console.log(`Express listening on port ${port}`);
+app.listen(process.env.PORT || 21792, function () {
+  console.log('Express listening on %s:%s', this.address().address, this.address().port);
 });
