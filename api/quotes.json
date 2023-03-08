@@ -86,5 +86,13 @@
     "source": 14,
     "authors": [9],
     "archived": false
+  },
+  {
+    "id": 11,
+    "quote_text": "Мы настольгируем не по тем местам, где когда-то были, а по тому времени, по тому какими были мы, каким был мир",
+    "age_restriction": "0+",
+    "source": 1,
+    "authors": [1],
+    "archived": false
   }
 ]
