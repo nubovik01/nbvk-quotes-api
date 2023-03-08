@@ -78,5 +78,13 @@
     "source": 1,
     "authors": [7],
     "archived": false
+  },
+  {
+    "id": 10,
+    "quote_text": "ты был так далеко, и я забыла, что ты был",
+    "age_restriction": "0+",
+    "source": 14,
+    "authors": [9],
+    "archived": false
   }
 ]
