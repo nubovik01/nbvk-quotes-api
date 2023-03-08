@@ -45,7 +45,7 @@
     "age_restriction": "18+",
     "source": 1,
     "authors": [1],
-    "archived": false
+    "archived": true
   },
   {
     "id": 7,
