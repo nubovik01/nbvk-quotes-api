@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get("/v2", async (req, res) => {
-  let filteredQuotes = req.query.archived ? quotes : quotes.filter(quote => !quote.archived);
+  let filteredQuotes = req.query.archived === 'false' ? quotes.filter(quote => !quote.archived) : quotes;
   let quote = filteredQuotes[Math.floor(Math.random() * filteredQuotes.length)];
   let source = sources.find(s => s.id === quote.source);
   let authorsData = quote.authors.map(authorId => {
