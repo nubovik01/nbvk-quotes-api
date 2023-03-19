@@ -10,6 +10,8 @@
      3. [Output multiple authors](#JavaScript-2)
 4. [Reporting a Vulnerability](#report-a-vulnerability)
 5. [Add your quote to API](#add-your-quote)
+   1. [On GitHub](#add-your-quote-gh)
+   2. [On Email](#add-your-quote-email)
 
 <a name="Releases"></a>
 ## Releases
@@ -178,7 +180,28 @@ Tell me about vulnerability on email nubovik01@gmail.com
 ## Add your quote to API
 At the moment, quotations are accepted only in Russian.
 <br>Applications can be submitted in any language.
-<br>Write a letter in the following form on email qwkrtezzz@gmail.com:
+
+<a name="add-your-quote-gh"></a>
+### On GitHub
+Create new issue there: https://github.com/Nubovik01/nbvk-quotes-api/issues
+<br>Form: 
+```
+Title: Add new quote to nbvk-quotes-api
+
+Comment:
+Hello, Please add this quote to nbvk-quotes-api
+
+Text: [text of quote]
+Source: [<source name> <link> <age restriction>]
+Authors: [<first name> <last name> <nickname> <image>]
+Age restriction: [0+/6+/12+/16+/18+]
+```
+Example form:
+![image](https://user-images.githubusercontent.com/50026919/226184092-ce19ba00-681e-464f-b340-0e03811c05ce.png)
+
+<a name="add-your-quote-email"></a>
+### On Email
+Write a letter in the following form on email qwkrtezzz@gmail.com:
 ```
 Hello, i'm [name].
 
