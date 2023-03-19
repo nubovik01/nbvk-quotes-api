@@ -5,7 +5,7 @@
 2. [Supported versions](#supported)
 3. [Using the API](#HowToUse)
   1. [Examples on JavaScript](#HowToUse-JavaScript-0)
-     1. [Output of author's name, last name, and quote text](#JavaScript-0)
+     1. [Output of author's first and last name, and quote text](#JavaScript-0)
      2. [Output of author's nickname if the name is unknown](#JavaScript-1)
      3. [Output multiple authors](#JavaScript-2)
 4. [Reporting a Vulnerability](#report-a-vulnerability)
@@ -34,7 +34,7 @@ Don't use very old versions of API please. Use older versions of the API only if
 ### JavaScript
 
 <a name="JavaScript-0"></a> 
-#### Output of author's name, last name, and quote text
+#### Output of author's first and last name, and quote text
 
 ```
 const fetch = require('node-fetch'); // v2.6.1
@@ -164,6 +164,7 @@ let quote = await fetch("https://nbvk-quotes-api.vercel.app/v2").then(response =
 let authors = quote.source.authors.map(author => {
   let name = `${author.first_name} ${author.last_name ? author.last_name : ""}`;
   return author.nickname ? `${name} (${author.nickname})` : name;
+  // Никита Бабушкин (Nubovik)
 }).join(", ");
 
 console.log(quote.quote_text+'\n'+authors);
