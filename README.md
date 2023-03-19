@@ -2,7 +2,7 @@
 
 ## Table of contents
 1. [Releases](#Releases)
-2. [Supported Versions](#supported)
+2. [Supported versions](#supported)
 3. [Using the API](#HowToUse)
   1. [Examples on JavaScript](#HowToUse-JavaScript-0)
      1. [Output of author's name, last name, and quote text](#JavaScript-0)
@@ -16,8 +16,7 @@ You can track API updates and changes here: https://github.com/Nubovik01/nbvk-qu
 
 <a name="supported"></a>
 ## Supported versions
-Don't use very old versions of API please.
-<br>Use older versions of the API only if you are confident in your actions ⚠️
+Don't use very old versions of API please. Use older versions of the API only if you are confident in your actions ⚠️
 
 | Version | Supported  |
 | ------- | ---------- |
