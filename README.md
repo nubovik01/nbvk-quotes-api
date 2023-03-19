@@ -8,14 +8,14 @@
    * 2.3. [Output multiple authors](#JavaScript-2)
 
 
-## Using
 <a name="HowToUse"></a> 
+## Using
 
-### JavaScript
 <a name="HowToUse-JavaScript-0"></a>
+### JavaScript
 
-#### Output of author's name, last name, and quote text
 <a name="JavaScript-0"></a> 
+#### Output of author's name, last name, and quote text
 
 ```
 const fetch = require('node-fetch'); // v2.6.1
@@ -60,8 +60,8 @@ console.log(author.first_name + ' ' + author.last_name + ': ' + quote.quote_text
 // Илья Петров: Есть же проще, у нас же нода >16.0.0
 ```
 
-#### Output of author's nickname if the name is unknown
 <a name="JavaScript-1"></a> 
+#### Output of author's nickname if the name is unknown
 
 ```
 const fetch = require('node-fetch'); // v2.6.1
@@ -105,8 +105,8 @@ if(!(author.last_name || author.first_name)) console.log(author.nickname + ': ' 
 // dieKartoffel: Блин встретил новый год в нижнем белье
 ```
 
-#### Output multiple authors
 <a name="JavaScript-2"></a> 
+#### Output multiple authors
 ```
 const fetch = require('node-fetch'); // v2.6.1
 
