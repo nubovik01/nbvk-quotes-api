@@ -9,6 +9,7 @@
      2. [Output of author's nickname if the name is unknown](#JavaScript-1)
      3. [Output multiple authors](#JavaScript-2)
 4. [Reporting a Vulnerability](#report-a-vulnerability)
+5. [Add your quote to API](#add-your-quote)
 
 <a name="Releases"></a>
 ## Releases
@@ -171,3 +172,31 @@ console.log(quote.quote_text+'\n'+authors);
 <a name="report-a-vulnerability"></a>
 ## Reporting a Vulnerability
 Tell me about vulnerability on email nubovik01@gmail.com
+
+<a name="add-your-quote"></a>
+## Add your quote to API
+At the moment, quotations are accepted only in Russian.
+<br>Applications can be submitted in any language.
+<br>Write a letter in the following form on email qwkrtezzz@gmail.com:
+```
+Hello, i'm [name].
+
+Please add this quote to nbvk-quotes-api
+
+Text: [text of quote]
+Source: [<source name> <link> <age restriction>]
+Authors: [<first name> <last name> <nickname> <image>]
+Age restriction: [0+/6+/12+/16+/18+]
+
+```
+Example form:
+```
+Добрый день, я Кир.
+
+Пожалуйста, добавьте эту цитату в nbvk-quotes-api
+
+Под старость жить такая гадость...
+livelib.ru, https://livelib.ru/quote/121598-evgenij-onegin-as-pushkin (0+)
+Александр Пушкин (https://phonoteka.org/uploads/posts/2021-05/1622279835_17-phonoteka_org-p-aleksandr-pushkin-art-krasivo-19.jpg)
+0+
+```
