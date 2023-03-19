@@ -1,19 +1,34 @@
 # nbvk-quotes-api
 
 ## Table of contents
-- [Releases](#Releases)
-- [How to use?](#HowToUse)
-  - [Examples on JavaScript](#HowToUse-JavaScript-0)
-    - [Output of author's name, last name, and quote text](#JavaScript-0)
-    - [Output of author's nickname if the name is unknown](#JavaScript-1)
-    - [Output multiple authors](#JavaScript-2)
+1. [Releases](#Releases)
+2. [Supported Versions](#supported)
+3. [Using the API](#HowToUse)
+  1. [Examples on JavaScript](#HowToUse-JavaScript-0)
+     1. [Output of author's name, last name, and quote text](#JavaScript-0)
+     2. [Output of author's nickname if the name is unknown](#JavaScript-1)
+     3. [Output multiple authors](#JavaScript-2)
+4. [Reporting a Vulnerability](#report-a-vulnerability)
 
 <a name="Releases"></a>
 ## Releases
 You can track API updates and changes here: https://github.com/Nubovik01/nbvk-quotes-api/releases
 
+<a name="supported"></a>
+## Supported versions
+Don't use very old versions of API please.
+<br>Use older versions of the API only if you are confident in your actions ⚠️
+
+| Version | Supported  |
+| ------- | ---------- |
+| 2.2.0   | ✅        |
+| 2.1.\*  | ❌        |
+| 2.0.0   | ❌        |
+| 1.0.0   | ✅        |
+| < 1.0.0 | ❌        |
+
 <a name="HowToUse"></a> 
-## Using
+## Using the API
 
 <a name="HowToUse-JavaScript-0"></a>
 ### JavaScript
@@ -153,3 +168,7 @@ let authors = quote.source.authors.map(author => {
 
 console.log(quote.quote_text+'\n'+authors);
 ```
+
+<a name="report-a-vulnerability"></a>
+## Reporting a Vulnerability
+Tell me about vulnerability on email nubovik01@gmail.com
