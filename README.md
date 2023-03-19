@@ -1,12 +1,16 @@
 # nbvk-quotes-api
 
 ## Table of contents
-1. [How to use?](#HowToUse)
-2. [Examples on JavaScript](#HowToUse-JavaScript-0)
-   * 2.1. [Output of author's name, last name, and quote text](#JavaScript-0)
-   * 2.2. [Output of author's nickname if the name is unknown](#JavaScript-1)
-   * 2.3. [Output multiple authors](#JavaScript-2)
+- [Releases](#Releases)
+- [How to use?](#HowToUse)
+  - [Examples on JavaScript](#HowToUse-JavaScript-0)
+    - [Output of author's name, last name, and quote text](#JavaScript-0)
+    - [Output of author's nickname if the name is unknown](#JavaScript-1)
+    - [Output multiple authors](#JavaScript-2)
 
+<a name="Releases"></a>
+## Releases
+You can track API updates and changes here: https://github.com/Nubovik01/nbvk-quotes-api/releases
 
 <a name="HowToUse"></a> 
 ## Using
