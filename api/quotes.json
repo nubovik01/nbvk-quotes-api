@@ -94,5 +94,21 @@
     "source": 1,
     "authors": [1],
     "archived": false
+  },
+  {
+    "id": 12,
+    "quote_text": "Кому понравится жизнь, где за тебя всё решили?",
+    "age_restriction": "0+",
+    "source": 15,
+    "authors": [10],
+    "archived": false
+  },
+  {
+    "id": 13,
+    "quote_text": "Когда я говорю, что мне не больно, это значит, что я могу справиться с этим.",
+    "age_restriction": "0+",
+    "source": 15,
+    "authors": [10],
+    "archived": false
   }
 ]
