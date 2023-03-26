@@ -76,5 +76,11 @@
     "age_restriction": "0+",
     "name": "Молоко и мёд",
     "link": null
+  },
+  {
+    "id": 15,
+    "age_restriction": "16+",
+    "name": "Hunter × Hunter",
+    "link": null
   }
 ]
