@@ -1,25 +1,25 @@
 # nbvk-quotes-api
 
 ## Table of contents
-1. [Releases](#Releases)
-2. [Supported versions](#supported)
-3. [Using the API](#HowToUse)
-  1. [Examples on JavaScript](#HowToUse-JavaScript-0)
-     1. [Output of author's first and last name, and quote text](#JavaScript-0)
-     2. [Output of author's nickname if the name is unknown](#JavaScript-1)
-     3. [Output multiple authors](#JavaScript-2)
-4. [Reporting a Vulnerability](#report-a-vulnerability)
-5. [Add your quote to API](#add-your-quote)
-   1. [On GitHub](#add-your-quote-gh)
-   2. [On Email](#add-your-quote-email)
+1. [Релизы](#Releases)
+2. [Поддерживаемые версии](#supported)
+3. [Использование](#HowToUse)
+  1. [Примеры на JavaScript](#HowToUse-JavaScript-0)
+     1. [Вывод цитаты, имени и фамилии автора](#JavaScript-0)
+     2. [Получение никнейма автора, если имя неизвестно](#JavaScript-1)
+     3. [Вывод нескольких авторов](#JavaScript-2)
+4. [Зарепортить уязвимость](#report-a-vulnerability)
+5. [Добавить цитату](#add-your-quote)
+   1. [через GitHub](#add-your-quote-gh)
+   2. [по почте](#add-your-quote-email)
 
 <a name="Releases"></a>
-## Releases
-You can track API updates and changes here: https://github.com/Nubovik01/nbvk-quotes-api/releases
+## Релизы
+Вы можете отслеживать изменения и обновления API здесь: https://github.com/Nubovik01/nbvk-quotes-api/releases
 
 <a name="supported"></a>
-## Supported versions
-Don't use very old versions of API please. Use older versions of the API only if you are confident in your actions ⚠️
+## Поддерживаемые версии
+Пожалуйста, не используйте очень старые версии API. Используйте старые версии только если вы уверены в своих действиях ⚠️
 
 | Version | Supported  |
 | ------- | ---------- |
@@ -30,13 +30,13 @@ Don't use very old versions of API please. Use older versions of the API only if
 | < 1.0.0 | ❌        |
 
 <a name="HowToUse"></a> 
-## Using the API
+## Использование
 
 <a name="HowToUse-JavaScript-0"></a>
 ### JavaScript
 
 <a name="JavaScript-0"></a> 
-#### Output of author's first and last name, and quote text
+#### Вывод цитаты, имени и фамилии автора
 
 ```
 const fetch = require('node-fetch'); // v2.6.1
@@ -82,7 +82,7 @@ console.log(author.first_name + ' ' + author.last_name + ': ' + quote.quote_text
 ```
 
 <a name="JavaScript-1"></a> 
-#### Output of author's nickname if the name is unknown
+#### Получение никнейма автора, если имя неизвестно
 
 ```
 const fetch = require('node-fetch'); // v2.6.1
@@ -127,7 +127,7 @@ if(!(author.last_name || author.first_name)) console.log(author.nickname + ': ' 
 ```
 
 <a name="JavaScript-2"></a> 
-#### Output multiple authors
+#### Вывод нескольких авторов
 ```
 const fetch = require('node-fetch'); // v2.6.1
 
@@ -173,47 +173,47 @@ console.log(quote.quote_text+'\n'+authors);
 ```
 
 <a name="report-a-vulnerability"></a>
-## Reporting a Vulnerability
-Tell me about vulnerability on email nubovik01@gmail.com
+## Зарепортить уязвимость
+Расскажите про уязвимость по почте nubovik01@gmail.com
 
 <a name="add-your-quote"></a>
-## Add your quote to API
+## Добавить цитату
 At the moment, quotations are accepted only in Russian.
 <br>Applications can be submitted in any language.
 
 <a name="add-your-quote-gh"></a>
-### On GitHub
-Create new issue there: https://github.com/Nubovik01/nbvk-quotes-api/issues
-<br>Form: 
+### Через GitHub
+Создайте новый issue: https://github.com/Nubovik01/nbvk-quotes-api/issues
+<br>Форма: 
 ```
-Title: Add new quote to nbvk-quotes-api
+Title: Новая цитата для nbvk-quotes-api
 
 Comment:
-Hello, Please add this quote to nbvk-quotes-api
+Пожалуйста, добавьте эту цитату в nbvk-quotes-api
 
-Text: [text of quote]
-Source: [<source name> <link> <age restriction>]
-Authors: [<first name> <last name> <nickname> <image>]
-Age restriction: [0+/6+/12+/16+/18+]
+Текст: [текст цитаты]
+Источник: [<название источника> <ссылка> <возрастн. огр.>]
+Авторы: [<имя> <фамилия> <никнейм> <ссылка на фото>]
+Возрастное ограничение: [0+/6+/12+/16+/18+]
 ```
-Example form:
+Пример формы:
 ![image](https://user-images.githubusercontent.com/50026919/226184092-ce19ba00-681e-464f-b340-0e03811c05ce.png)
 
 <a name="add-your-quote-email"></a>
-### On Email
-Write a letter in the following form on email qwkrtezzz@gmail.com:
+### По почте
+Напишите письмо по этой форме на qwkrtezzz@gmail.com:
 ```
-Hello, i'm [name].
+Привет, я [имя].
 
-Please add this quote to nbvk-quotes-api
+Пожалуйста, добавьте эту цитату в nbvk-quotes-api
 
-Text: [text of quote]
-Source: [<source name> <link> <age restriction>]
-Authors: [<first name> <last name> <nickname> <image>]
-Age restriction: [0+/6+/12+/16+/18+]
+Текст: [текст цитаты]
+Источник: [<название источника> <ссылка> <возрастн. огр.>]
+Авторы: [<имя> <фамилия> <никнейм> <ссылка на фото>]
+Возрастное ограничение: [0+/6+/12+/16+/18+]
 
 ```
-Example form:
+Пример формы:
 ```
 Добрый день, я Кир.
 
