@@ -178,8 +178,7 @@ console.log(quote.quote_text+'\n'+authors);
 
 <a name="add-your-quote"></a>
 ## Добавить цитату
-At the moment, quotations are accepted only in Russian.
-<br>Applications can be submitted in any language.
+В данный момент принимаются цитаты только на русском языке, однако заявки принимаются на любом языке
 
 <a name="add-your-quote-gh"></a>
 ### Через GitHub
