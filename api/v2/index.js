@@ -1,10 +1,11 @@
 const express = require("express");
 const bodyParser = require('body-parser');
+let package=require('../../package.json');
 let quotes = require('../quotes.json');
 let authors = require('../authors.json');
 let sources = require('../sources.json');
 
-const app = express();
+var app = express();
 app.use(bodyParser.json());
 
 app.get("/v2", async (req, res) => {
@@ -27,6 +28,9 @@ app.get("/v2", async (req, res) => {
       name: source.name,
       link: source.link,
       authors: authorsData
+    },
+    api: {
+      name: "nbvk quotes api v"+package.version
     }
   };
 
