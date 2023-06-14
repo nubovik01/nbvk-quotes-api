@@ -5,7 +5,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get("/", async function (req, res) {
-  return res.send({ "comment": "go to /v2" });
+  return res.send({ "comment": "Thanks for interesting! Go to /v2 now." });
 });
 
 app.listen(process.env.PORT || 21790, function () {
