@@ -68,7 +68,7 @@ const fetch = require('node-fetch'); // v2.6.1
 
 let quote = await fetch("https://nbvk-quotes-api.vercel.app/v2").then(response => response.json()); // { "id": ..., "quote_text": "...", ... }
 
-let authors = quote.source.authors.map(author => { // [ { ... }, ... ]
+let authors = quote.source.authors.map(author => { // [ { ... }, { ... }, ... ]
   let name = `${author.first_name} ${author.last_name ? author.last_name : ""}`;
   return author.nickname ? `${name} (${author.nickname})` : name;
 }).join(", ");
