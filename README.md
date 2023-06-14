@@ -23,11 +23,11 @@
 
 | Version | Supported  |
 | ------- | ---------- |
-| 2.2.0   | ✅        |
+| 2.2.1   | ✅        |
 | 2.1.\*  | ❌        |
 | 2.0.0   | ❌        |
 | 1.0.0   | ✅        |
-| < 1.0.0 | ❌        |
+| < 1.0   | ❌        |
 
 <a name="HowToUse"></a> 
 ## Использование
@@ -45,7 +45,7 @@ let quote = await fetch("https://nbvk-quotes-api.vercel.app/v2").then(response =
 
 let author = quote.source.authors[0]; // { "id": ..., "first_name": "...", ... }
 
-console.log(author.first_name + ' ' + author.last_name + ': ' + quote.quote_text); // Text of quote
+console.log(author.first_name + ' ' + author.last_name + ': ' + quote.quote_text); // Текст цитаты
 ```
 
 <a name="JavaScript-1"></a> 
